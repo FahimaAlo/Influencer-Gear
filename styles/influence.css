@@ -1,0 +1,98 @@
+/* shared styles */
+.btn-primary{
+    border-radius: 16px;
+    color: #FFFFFF;
+    background-color: #E02C6D;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* header styles */
+header{
+    padding: 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+nav li a{
+    text-decoration: none; 
+}
+/* banner styles */
+.camera{
+    width: 475px;
+    height: 475px;
+    background-image: url(../images/Circle\ design.svg);
+}
+.banner{
+    display: flex;
+  
+}
+.banner-content{
+    width: 582px;
+    height: 270px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+.banner-description{
+    color: #3A3A3A;
+}
+
+.img-container{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+ 
+}
+
+.img-container img{
+        width: 111px;
+        height: 26px;
+        gap: 40px;
+}
+
+
+@media screen and (max-width:576px) {
+    header{
+        padding: 20px;
+    }
+    nav, .camera, .img-container{
+        flex-direction: column;
+    }
+    
+    
+}
+
+/* tablet or medium devices */
+@media screen and (min-width:576px) and (max-width:960px) {
+    header{
+        padding: 50px;
+    }
+    nav, .camera, .img-container{
+        flex-direction: column;
+    }
+    .img-container{
+        margin-top: 20px;
+        gap: 30px;
+    }
+
+    
+}
+
+
