@@ -72,6 +72,8 @@ nav li a{
  display: grid;
  grid-template-columns:repeat(3,1fr);
 gap: 1.5rem;
+width: 1047px;
+height: 1662px;
 }
 .facts-card-container .card{
     border-radius: 8px;
@@ -106,6 +108,36 @@ gap: 1.5rem;
     margin-bottom: 10px;
 }
 /* features  section */
+.features{
+    display: flex;
+    width: 1160px;
+    height: 270px;
+    justify-content: center;
+
+}
+.features-head{
+    margin-left: 50px;
+    color: #0A0826;
+    font-size: 38px;
+}
+.features-description{
+    color: #6C6C6C;
+}
+.footer{
+    justify-content: center;
+ 
+    text-align: center;
+    background-color: #AAAAAA;
+}
+.footer-heading{
+    margin-top: 10px;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+.footer-description, .footer-descripe{
+    font-size: 14px;
+    color: #D9DBE1;
+}
 
 /* Mobile devices */
 
